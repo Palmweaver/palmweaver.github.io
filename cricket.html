@@ -1,0 +1,44 @@
+  <script type = "text/javascript">   
+    //<![CDATA[
+    if (slide2 == 0){
+      setInterval('swapImages2()', 5000);
+      slide2 = 1;
+      function swapImages2(){
+        var $active = $('#myGallery2 .active');
+        var $next = ($('#myGallery2 .active').next().length > 0) ? $('#myGallery2 .active').next() : $('#myGallery2 img:first');
+        $active.fadeOut(function(){
+          $active.removeClass('active');
+          $next.fadeIn().addClass('active');
+        });
+      } 
+    }
+     
+    //]]>
+  </script>
+
+	<div id = myGallery2 class = "floatright">
+			<img src = "https://lh3.googleusercontent.com/-WWc6eh4WZKE/S-1Kt54u6FI/AAAAAAAAAOw/vSC25bFGFvQ/s640/P4291135.JPG"
+			height="480"
+			width="640"
+			title="Crickets"
+			alt="Crickets"
+			class="active" />
+			<img src = "https://lh3.googleusercontent.com/-xHywPg9X8vM/S-1Kj84aOhI/AAAAAAAAANg/dcqsh4yHcas/s640/P4291097.JPG"
+			height="480"
+			width="640"
+			title="Crickets"
+			alt="Crickets"/>
+			<img src = "https://lh5.googleusercontent.com/-IcxS4HaIW48/S-1KtETPorI/AAAAAAAAAOs/xeqsMJF0a8s/s640/P4291134.JPG"
+			height="480"
+			width="640"
+			title="Crickets"
+			alt="Crickets"/>
+			<img src = "https://lh4.googleusercontent.com/---532MzcmfE/S-1Kjdd1akI/AAAAAAAAANc/KxK8k2FgnnE/s640/P4291096.JPG.JPG"
+			height="480"
+			width="640"
+			title="Crickets"
+			alt="Crickets"/>
+		</div>
+		<p>
+		  The cricket is on of my favorite pieces to make.
+		</p>
