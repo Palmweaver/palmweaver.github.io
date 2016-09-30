@@ -1,7 +1,150 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages for the Palmweaver.com website.</p>
-</body>
+<head>
+  <meta http-equiv="content-type" content="text/xml; charset=utf-8" />
+  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link rel = "stylesheet"
+        type = "text/css"
+        href = "css/jquery-ui-1.9.2.custom.css" /> 
+  <link rel="shortcut icon" href="https://lh3.googleusercontent.com/cSQB4ihq9eUPborSy0jJ-Sxu9wFAmTfaZLDTHiRXCCVT87J9b7PewZ6zTl9fkwCE0Q1rG_0htJGuKMvviJL0TuN-x-zjWTroRrTRsptyUrnNwyI_fDK3OKvEJ_77PM03Zn2YXNBqLnG4Z7b5MK9IBGgvbApj8Xmh8y8hU963JX2IVjKdzFu0X1lgHlv30rxdXfOAb-5OAJEoqOBdtdo5auL183xBnU8Wrzc6uX8BDwhlsNxwwICZ0-pmwS0uc_BGoOpYzYPYwGJ9DI4wpElteBdirXzv-cUWorbhdpAsSLZ_uYtoXtT7Z2iMhiB-uiifLxUe15AASeGH7e3BaZ3kVemwKxfizqDigxH_PAWe3e_YPZb88ColB646qz8RHCt54b0aW9IbBtlx99GtSG9XeclcHDwHXRnMtDI-U7eY-ru3e0pGAN6CblT2fwSP-2pBVcEtYAoDxiSXAmbFehdCgiVeaA5WqkQjDarOP6kw-PVDbcdMxEkVHleQYXVjvWqsF3TxJiBmYYp7iesyiKSb-0u2DmpBF65uO5PwhgcS3Gpz1Ype6JusctpWS3KLJqfmuu2EkNcA2jqvyCSPsfuclzmovIxRAuEVgCZGmRJMvi_ZsQIV=s16-no" type="image/x-icon" />  
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type = "text/javascript"
+          src = "js/jquery-ui-1.9.2.custom.js"></script>
+  <script type = "text/javascript">    
+    //<![CDATA[
+
+    $(init);
+
+    function init(){
+      $("#tabs").tabs();
+      $("#accordion").accordion({
+        clearStyle: true,
+        change: function(event, ui){
+          var href = $(ui.newHeader.find("a")).attr("href");
+          $.post(href, function(data) {
+            ui.newHeader.next("div").html(data);
+          });
+        }
+      });
+    }
+    var slide = 0;
+    var slide2 = 0;
+    var slide3 = 0;
+    var slide4 = 0;
+    var slide5 = 0;
+    var slide6 = 0;
+    var slide7 = 0;
+    var slide8 = 0;
+    var slide9 = 0;
+    var slide10 = 0;
+    var slide11 = 0;
+    var slide12 = 0;
+    //]]>
+  </script>
+  
+  
+  <title>The Palmweaver</title>
+  
+
+  
+</head>
+  <body>
+    <div id ="splash">
+  
+    </div>
+  
+    <div id = "tabs">
+      <ul>
+        <li id = "tab1"><a href = "palmweaver.html">The Palmweaver</a></li>
+        <li><a href = "#accordion">Artwork</a></li>
+        <li><a href = "reenactments.html">Re-enactments</a></li>
+        <li><a href = "webdesign.html">Web Design</a></li>
+        <li><a href = "happening.html">Recent Events</a></li>
+      </ul>
+
+
+	    <div id = "accordion">
+  	    <h2><a href = "cricket.html">The Cricket</a></h2>
+        <div>
+          <script type = "text/javascript">   
+          //<![CDATA[
+          setInterval('swapImages2()', 5000);            
+            function swapImages2(){
+              slide2 = 1;
+              var $active = $('#myGallery2 .active');
+              var $next = ($('#myGallery2 .active').next().length > 0) ? $('#myGallery2 .active').next() : $('#myGallery2 img:first');
+              $active.fadeOut(function(){
+              $active.removeClass('active');
+              $next.fadeIn().addClass('active');
+            });
+          }  
+          
+          //]]>
+          </script>
+          <div id = myGallery2 class = "floatright">
+            <img src = "https://lh3.googleusercontent.com/-WWc6eh4WZKE/S-1Kt54u6FI/AAAAAAAAAOw/vSC25bFGFvQ/s640/P4291135.JPG"
+            height="480"
+            width="640"
+            title="Crickets"
+            alt="Crickets"
+            class="active" />
+            <img src = "https://lh3.googleusercontent.com/-xHywPg9X8vM/S-1Kj84aOhI/AAAAAAAAANg/dcqsh4yHcas/s640/P4291097.JPG"
+            height="480"
+            width="640"
+            title="Crickets"
+            alt="Crickets"/>
+            <img src = "https://lh5.googleusercontent.com/-IcxS4HaIW48/S-1KtETPorI/AAAAAAAAAOs/xeqsMJF0a8s/s640/P4291134.JPG"
+            height="480"
+            width="640"
+            title="Crickets"
+            alt="Crickets"/>
+            <img src = "https://lh4.googleusercontent.com/---532MzcmfE/S-1Kjdd1akI/AAAAAAAAANc/KxK8k2FgnnE/s640/P4291096.JPG.JPG"
+            height="480"
+            width="640"
+            title="Crickets"
+            alt="Crickets"/>
+          </div>
+          <p>
+            The cricket is on of my favorite pieces to make.
+          </p>
+        </div>		
+        <h2><a href = "butterflies.html">Butterflies</a></h2>
+        <div>
+	      </div>
+        <h2><a href = "lizards.html">Lizards</a></h2>
+        <div>
+        </div>
+        <h2><a href = "dragonflies.html">Dragonflies</a></h2>
+        <div>
+        </div>
+        <h2><a href = "roses.html">Roses</a></h2>
+        <div>
+        </div>        
+        <h2><a href = "smallbirds.html">Small Birds</a></h2>
+        <div>
+        </div>
+        <h2><a href = "marlin.html">The Marlin</a></h2>
+        <div>
+        </div>
+        <h2><a href = "hangingbirds.html">Hanging Birds</a></h2>
+        <div>
+        </div>     
+        <h2><a href = "hats.html">Hats and Sunvisors. Functional and unique headgear for the island traveler</a></h2>
+        <div>
+        </div> 
+      </div>
+
+      <div id = "footer">
+		    <h3>
+			    Email: thepalmweaver@gmail.com   Phone: 904-547-1582
+		    </h3>
+		    <h2>
+		      <a href="http://www.facebook.com/palmweaver" target="_blank">www.facebook.com/palmweaver</a>
+		    </h2>
+		    <p>
+		      <a href = "index.html">Main Page</a>  
+		    </p> 
+	    </div>
+    </div>
+  </body>
 </html>
