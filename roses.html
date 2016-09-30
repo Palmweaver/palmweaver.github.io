@@ -1,0 +1,45 @@
+  <script type = "text/javascript">   
+    //<![CDATA[
+    if (slide8 == 0){
+      setInterval('swapImages8()', 5000);
+      slide8 = 1;
+      function swapImages8(){
+        var $active = $('#myGallery8 .active');
+        var $next = ($('#myGallery8 .active').next().length > 0) ? $('#myGallery8 .active').next() : $('#myGallery8 img:first');
+        $active.fadeOut(function(){
+          $active.removeClass('active');
+          $next.fadeIn().addClass('active');
+        });
+      } 
+    }
+     
+    //]]>
+    //]]>
+  </script>  
+
+        <div id = myGallery8 class = "floatright">
+          <img src = "https://lh6.googleusercontent.com/-n8h8YQ7_DRk/UNJaX8F89xI/AAAAAAAAAWs/3yeJMD4tirA/s640/Picture%2520078.JPG"
+          height="480"
+          width="640"
+          title="Rose"
+          alt="Rose"
+          class="active" />
+          <img src = "https://lh4.googleusercontent.com/-LJHgaknKD5g/UNJaYx_STaI/AAAAAAAAAW0/1E9RYJkQLL0/s640/Picture%2520079.JPG"
+          height="480"
+          width="640"
+          title="Rose"
+          alt="Rose"/>
+          <img src = "https://lh5.googleusercontent.com/-E1WvAgieIFo/UNJaZrUkyPI/AAAAAAAAAW8/EDkpIDBMArw/s640/Picture%2520082.JPG"
+          height="480"
+          width="640"
+          title="Rose"
+          alt="Rose"/>
+          <img src = "https://lh6.googleusercontent.com/-ne7X4nliayU/UNJaazE8mVI/AAAAAAAAAXE/S4h3WayWUd4/s640/Picture%2520121.JPG"
+          height="480"
+          width="640"
+          title="Rose"
+          alt="Rose"/>
+        </div>
+        <p>
+          The rose is the first pattern I learned as an apprentice.  It is a simple design, but once mastered it has an allure all it's own.
+        </p>
