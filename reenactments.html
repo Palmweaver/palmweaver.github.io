@@ -1,0 +1,70 @@
+  <script type = "text/javascript">   
+    //<![CDATA[
+    if (slide5 == 0){
+      setInterval('swapImages5()', 5000);
+      slide5 = 1;
+      function swapImages5(){
+        var $active = $('#myGallery5 .active');
+        var $next = ($('#myGallery5 .active').next().length > 0) ? $('#myGallery5 .active').next() : $('#myGallery5 img:first');
+        $active.fadeOut(function(){
+          $active.removeClass('active');
+          $next.fadeIn().addClass('active');
+        });
+      } 
+    }
+     
+    //]]>
+    //]]>
+  </script>   
+
+
+  <div id = "reenactments">
+	<h2>
+		The city of Saint Augustine has a rich history, and we live it.
+	</h2>
+		<div id = myGallery5 class="floatright">
+			<img src = "https://lh6.googleusercontent.com/-9AI7MuDdDaY/UNJbN2bE3rI/AAAAAAAAAl8/T_gPC5kWOqM/s800/enact640a.jpg"
+			height="480"
+			width="640"
+			title="Weaving at the Spanish Quarter"
+			alt="Weaving at the Spanish Quarter"
+			class="active" />
+			<img src = "https://lh6.googleusercontent.com/-ZW6L78hCsIY/UNJbORLS3TI/AAAAAAAAAl8/LdEG6ClocJY/s800/enact640b.jpg"
+			height="480"
+			width="640"
+			title="Posing at the Casa Monica"
+			alt="Posing at the Casa Monica"/>
+			<img src = "https://lh3.googleusercontent.com/-gV-Q9vdREVQ/UNJbO6yV0SI/AAAAAAAAAl8/cZqi_YCDIIQ/s800/enact640c.jpg"
+			height="480"
+			width="640"
+			title="Lost Arts fair at the Spanish Quarter"
+			alt="Lost Arts fair at the Spanish Quarter"/>
+			<img src = "https://lh6.googleusercontent.com/-NJyYxU0bXeY/UNJbPviNeFI/AAAAAAAAAl8/aRR9xhv6Fvo/s800/enact640d.jpg"
+			height="480"
+			width="640"
+			title="Joking with the troops before battle"
+			alt="Joking with the troops before battle"/>
+			<img src = "https://lh4.googleusercontent.com/-Ri8YqYJYgVQ/UNJbNPkx9SI/AAAAAAAAAl8/W-5b_IPESKg/s800/enact640e.jpg"
+			height="480"
+			width="640"
+			title="Advancing down Saint George Street"
+			alt="Advancing down Saint George Street"/>
+			<img src = "https://lh5.googleusercontent.com/-a4lRUzgWeiE/UNJbMx8_QPI/AAAAAAAAAl8/C8E-3caOm5c/s800/enact640f.jpg"
+			height="480"
+			width="640"
+			title="Pikes at the ready"
+			alt="Pikes at the ready"/>
+			<img src = "https://lh3.googleusercontent.com/-V2-Qruh6b34/UNJbMaU3QBI/AAAAAAAAAl8/P9cXfpHqbac/s800/enact640g.jpg"
+			height="480"
+			width="640"
+			title="Set to Charge"
+			alt="Set to Charge"/>
+		</div>
+		
+		<p>
+			These are scenes from the "Lost Arts and Crafts Festival" at the Colonial Spanish Quarter and Drake's Raid in downtown Saint Augustine, Florida.  We have several annual events where re-live parts of the exciting timeline of America's oldest city.
+		</p>
+		<p>
+			Founded in 1565, Saint Augustine has four and a half centuries of history.  Twice a year we have military re-enactments to celebrate pirate attacks that nearly destroyed the town, and we give the crowd quite a show.  There are many other historically accurate events throughout the year; a full schedule of them can be found at <a href="http://www.oldcity.com" target="_blank">www.oldcity.com</a>
+		</p>
+  </div>
