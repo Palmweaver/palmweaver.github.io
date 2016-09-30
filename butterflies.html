@@ -1,0 +1,47 @@
+	<script type = "text/javascript">   
+    //<![CDATA[
+    if (slide3 == 0){
+      setInterval('swapImages3()', 5000);
+      slide3 = 1;
+      function swapImages3(){
+        var $active = $('#myGallery3 .active');
+        var $next = ($('#myGallery3 .active').next().length > 0) ? $('#myGallery3 .active').next() : $('#myGallery3 img:first');
+        $active.fadeOut(function(){
+          $active.removeClass('active');
+          $next.fadeIn().addClass('active');
+        });
+      } 
+    }
+     
+    //]]>
+    //]]>
+  </script>
+	      
+	      
+	      
+	      <div id = myGallery3 class = "floatright">
+			    <img src = "https://lh3.googleusercontent.com/-pFisXuiLVyo/UNJa0d6Ps8I/AAAAAAAAAl4/mAObFZCFm_4/s640/Picture%2520047.JPG"
+			    height="480"
+			    width="640"
+			    title="Butterfly"
+			    alt="Butterfly"
+			    class="active" />
+			    <img src = "https://lh6.googleusercontent.com/-m6mpHIqVKow/UNJa3DhXmCI/AAAAAAAAAl4/PP1u5kFC-2U/s640/Picture%2520058.JPG"
+			    height="480"
+			    width="640"
+			    title="Butterfly"
+			    alt="Butterfly"/>
+			    <img src = "https://lh3.googleusercontent.com/-lrdGv-L9BgY/UNJa3uFa2MI/AAAAAAAAAl4/X63HT02uwGI/s640/Picture%2520059.JPG"
+			    height="480"
+			    width="640"
+			    title="Butterfly"
+			    alt="Butterfly"/>
+			    <img src = "https://lh6.googleusercontent.com/-y073J0AXzjA/UNJa4jmt71I/AAAAAAAAAl4/tzjHsqk1MVE/s640/Picture%2520088.JPG"
+			    height="480"
+			    width="640"
+			    title="Butterfly"
+			    alt="Butterfly"/>
+		    </div>
+		    <p>
+			    The Butterfly is made from a single leaf.
+		    </p>
