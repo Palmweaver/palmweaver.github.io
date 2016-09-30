@@ -1,0 +1,77 @@
+  <script type = "text/javascript">   
+    //<![CDATA[
+    if (slide == 0){
+      setInterval('swapImages()', 5000);
+      slide = 1;
+      function swapImages(){
+      var $active = $('#myGallery .active');
+      var $next = ($('#myGallery .active').next().length > 0) ? $('#myGallery .active').next() : $('#myGallery img:first');
+      $active.fadeOut(function(){
+        $active.removeClass('active');
+        $next.fadeIn().addClass('active');
+        });
+      }  
+    }
+    
+    //]]>
+  </script>
+
+  <div id = myGallery class="floatright">
+			<img src = "https://lh3.googleusercontent.com/-WVjFmxNK_sk/UNJbT9FN-9I/AAAAAAAAAf4/2JtFuSyxEO8/s800/thepalmweaver1.jpg"
+			height="480"
+			width="360"
+			title="The Palmweaver"
+			alt="The Palmweaver"
+			class="active" />
+			<img src = "https://lh3.googleusercontent.com/-9gxBabOrvlo/UNJbanomUoI/AAAAAAAAAhE/VpdyfklVfg4/s640/hat4.jpg"
+			height="480"
+			width="360"
+			title="The Palmweaver"
+			alt="The Palmweaver"/>
+			<img src = "https://lh5.googleusercontent.com/-jJ-mxT6LWuU/UNJbbzQn75I/AAAAAAAAAhc/b-krnMVOCf4/s800/hat.jpg"
+			height="480"
+			width="360"
+			title="The Palmweaver"
+			alt="The Palmweaver"/>
+			<img src = "https://lh5.googleusercontent.com/-jH9DlAf_kNk/UNJbJ2mjN2I/AAAAAAAAAdc/UcxcF1nFj9w/s800/thepalmweaver4.jpg"
+			height="480"
+			width="360"
+			title="The Palmweaver"
+			alt="The Palmweaver"/>
+		</div>
+		<h2>
+			My Name is Christopher Scalf, aka The Palmweaver
+		</h2>
+				
+		<p>
+			My nickname comes from the art that I've been practicing for over a decade and a half now. Based upon weaving patterns that are thousands of years old, I begin with simple palm leaves and turn them into visually striking creations ranging from small insects to complex hats and sculptures. You can see my art on the next tab and also purchase my art online.
+		</p>
+		 <h3>
+		      <a href=" https://www.etsy.com/shop/OldTownWeavers " target="_blank">Order directly from our ETSY store </a>
+		    </h3> 
+		<h4>
+			A little bit of old and new...
+		</h4>
+		<p>
+			I am a 3D artist, musician, historical re-enactor and web designer.  This week my main page will be focusing on some of my 3D design using 2020.
+		</p>
+		
+		<div>
+			<img src = "/images/preview1.jpg"
+			height="480"
+			width="720"
+            title="Kitchen Render"
+            alt="KitchenRender"
+            class="active" />
+
+			<img src = "/images/line1.png"
+			height="480"
+			width="720"			
+            title="Kitchen Render2"
+            alt="KitchenRender2"
+            class="active" />       
+        </div>     
+	</div>
+	
+	 
+	 
