@@ -1,0 +1,45 @@
+  <script type = "text/javascript">   
+    //<![CDATA[
+    if (slide6 == 0){
+      setInterval('swapImages6()', 5000);
+      slide6 = 1;
+      function swapImages6(){
+        var $active = $('#myGallery6 .active');
+        var $next = ($('#myGallery6 .active').next().length > 0) ? $('#myGallery6 .active').next() : $('#myGallery6 img:first');
+        $active.fadeOut(function(){
+          $active.removeClass('active');
+          $next.fadeIn().addClass('active');
+        });
+      } 
+    }
+     
+    //]]>
+    //]]>
+  </script>       
+       
+        <div id = myGallery6 class = "floatright">
+          <img src = "https://lh5.googleusercontent.com/-M1_TVqoHXWc/UNJaeP52HOI/AAAAAAAAAXQ/LA4sCyHXWhI/s640/Picture%2520142.JPG"
+          height="480"
+          width="640"
+          title="Lizard"
+          alt="Lizard"
+          class="active" />
+          <img src = "https://lh6.googleusercontent.com/-Cfj8Kw_Jo40/UNJafpyhJvI/AAAAAAAAAXY/x4aNQTHcJik/s640/Picture%2520147.JPG"
+          height="480"
+          width="640"
+          title="Lizard"
+          alt="Lizard"/>
+          <img src = "https://lh5.googleusercontent.com/-lZI4d6xADr8/UNJagUslYrI/AAAAAAAAAXg/C0kkIm86Hvs/s640/Picture%2520169.JPG"
+          height="480"
+          width="640"
+          title="Lizard"
+          alt="Lizard"/>
+          <img src = "https://lh5.googleusercontent.com/-eobAzekAiFY/UNJah6nD3gI/AAAAAAAAAXs/T8i0R3w7HDs/s640/Picture%2520178.JPG"
+          height="480"
+          width="640"
+          title="Lizard"
+          alt="Lizard"/>
+        </div>
+        <p>
+          They look like they could just take off running at any moment.
+        </p>
