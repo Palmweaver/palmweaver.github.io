@@ -45,7 +45,8 @@
     </div> 
     
     <!-- Container (About Section) -->
-    <div class="bgimg-5">  
+    <div class="w3-display-container">  
+        <img class="image-background parallax" src="https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no">
         <div class="w3-content w3-container w3-padding-64">
             <div class="w3-row">
                 <div class="w3-col m9 w3-center">
@@ -180,7 +181,7 @@ function myFunction() {
 // jquery parallax effect for scrolling background   
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    $(".bgimg-5").css("transform","translateY(" +  (scroll)/2  + "px)");
+    $(".parallax").css("transform","translateY(" +  (scroll)/2  + "px)");
   });
 
 </script>
