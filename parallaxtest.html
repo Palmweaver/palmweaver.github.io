@@ -215,12 +215,19 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 <div class="w3-content w3-container w3-padding-64">
   <h3 class="w3-center wow fadeInUp">Here's my contact info. Rock out.</h3>
 
+   
+    
+    
+    
   <div class="w3-row">
-    <div class="w3-col m4 w3-center w3-section">
-      <img src="https://lh3.googleusercontent.com/mhYyVQMsWwrUHGPVwncAnlrmgHwiPT-ltpjCYiU5KT3_B85cnxW5AsMDrw1jRi9vXEnmKlgL9-uUjZWBUkaZVEhmSuNbIsInem-VPHp8v3InMbuKXUeRHMNr49Em-D5Ahqa5oRPU5smFDccKcZUToYVYsOtrAGTtAz2MPGgpDMjUxWyCcK8mMampsvrTR7WS-w45hTYOlpBl3RHS0NBEiM4YK6tJDoGLrUZdiDTmoJKCpyStZ-syG2s4YoJNYVU0O6U1fBkGCBbVFCsuLbzdQo_liJFrdYk2e3RPirecmBi6tp-UvdPj2zlysOw-xISHoFtcyErBrGHaNXFtFy8A3ZVOBd4O03REvYdl2n23MPTPh4HHFYxL3uPv0yuwSl5XqWqUq5XKp7udsu71l_Lpp1nk557ChXdhqEuZRghayYYTyX1QFF-94WG8ysa_EsK_39I6r0HmXZGG9T7gbCyDaz1p8iMQ1poMzGnDRgVPd4b8_SJCmaH6pYOcPjNLfroYoEcHuI1SEN5JSD3iUB8tsEY7qG4mjfH-VAxGHtQmj3XiH-Z3OycFbKiqVm73R5M7MxotoqyW3U3X_tIeq8XmFkKCjPW8QidtQ3GjQ7cw46obLyt_=s686-no" height="200" width="200" class="w3-circle wow fadeInUp" alt="Chris Scalf">
-    </div>
+    <div class="w3-col m4 w3-center w3-content w3-section wow fadeInUp">
+      <img class="mySlides w3-circle" src="https://lh3.googleusercontent.com/mhYyVQMsWwrUHGPVwncAnlrmgHwiPT-ltpjCYiU5KT3_B85cnxW5AsMDrw1jRi9vXEnmKlgL9-uUjZWBUkaZVEhmSuNbIsInem-VPHp8v3InMbuKXUeRHMNr49Em-D5Ahqa5oRPU5smFDccKcZUToYVYsOtrAGTtAz2MPGgpDMjUxWyCcK8mMampsvrTR7WS-w45hTYOlpBl3RHS0NBEiM4YK6tJDoGLrUZdiDTmoJKCpyStZ-syG2s4YoJNYVU0O6U1fBkGCBbVFCsuLbzdQo_liJFrdYk2e3RPirecmBi6tp-UvdPj2zlysOw-xISHoFtcyErBrGHaNXFtFy8A3ZVOBd4O03REvYdl2n23MPTPh4HHFYxL3uPv0yuwSl5XqWqUq5XKp7udsu71l_Lpp1nk557ChXdhqEuZRghayYYTyX1QFF-94WG8ysa_EsK_39I6r0HmXZGG9T7gbCyDaz1p8iMQ1poMzGnDRgVPd4b8_SJCmaH6pYOcPjNLfroYoEcHuI1SEN5JSD3iUB8tsEY7qG4mjfH-VAxGHtQmj3XiH-Z3OycFbKiqVm73R5M7MxotoqyW3U3X_tIeq8XmFkKCjPW8QidtQ3GjQ7cw46obLyt_=s686-no" height="200" width="200" alt="Chris Scalf">
+      <img class="mySlides w3-circle" src="https://photos.google.com/share/AF1QipPSRCi9x3NrMzDtnlHqv2hhNb8Tlw4MjK8v9eLU8LpHIV2ymABXEvS8BbIiFvUgrA/photo/AF1QipP9d1CGS9OArbLOyzvjQ2M2XN6eb2xJ5tZThywo?key=cFduSUdnblN0eU9BNEFWWnU4VU9sQ0FjZTZkbEx3" height="200" width="200" alt="Chris Scalf">
+      </div>
 
-    <!-- Hide this text on small devices -->
+      
+      
+      
     <div class="w3-col m8 w3-section">
           <div class="w3-large w3-margin-bottom wow fadeInUp">
             <i class="fa fa-map-marker w3-hover-text-black" style="width:30px"></i> Saint George Street and Cathedral, Saint Augustine, Florida<br>
@@ -233,15 +240,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
       </div>
   </div>    
     
-    
-    
-    
-    
-    
-    
-    
-    
-
             <div class="w3-col m8 w3-container w3-section w3-hover-brown wow fadeInUp">
               <p class="wow fadeInUp">If you're trying to bribe me, I love good coffee.</p>
 
@@ -259,7 +257,22 @@ function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
 }
+// Slideshow at the bottom
+var myIndex = 0;
+carousel();
 
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}    
+    
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
