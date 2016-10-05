@@ -26,7 +26,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 /* Perspective Based Parallax Effect */
 .parallax {
     perspective: 1px;
-    height: 100vh;
+    height: 600px;
     overflow-x: hidden;
     overflow-y: auto;
 }
