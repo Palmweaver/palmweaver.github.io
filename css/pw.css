@@ -50,7 +50,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 .bgimg-5 {
     background-image: url("https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no");
     min-height: 600px;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
