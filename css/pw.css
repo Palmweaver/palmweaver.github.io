@@ -75,6 +75,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-image: url("https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100%;
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
