@@ -51,11 +51,12 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 }
 
 /* Fifth image (What I work with) */
-.parallax {
+.bgimg-5 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
+    background-attachment: fixed;
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
