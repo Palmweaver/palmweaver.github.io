@@ -14,13 +14,36 @@ body, html {
 p {font-family: 'Lora', serif; line-height: 1.8; color: #F5ECEC;}
 h3,h4,h5,h6 {color: #ff9800; font-family: 'Alike Angular', serif;}
 h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
-/* Create a Parallax Effect */
+
+/* Straightforward Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Perspective Based Parallax Effect */
+.parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+.parallax__layer--back {
+    transform: translateZ(-1px);
+}
+
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
@@ -46,21 +69,9 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     min-height: 600px;
 }
 
-/* Fifth image (Undefined) */
+/* Fifth image (What I work with) */
 .bgimg-5 {
     background-image: url("https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no");
-    min-height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    perspective: 1px;
-    overflow-x: hidden;
-    overflow-y: auto;  
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translateZ(-1px);
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
