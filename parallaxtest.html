@@ -8,8 +8,8 @@
 <link rel="shortcut icon" href="https://lh3.googleusercontent.com/cSQB4ihq9eUPborSy0jJ-Sxu9wFAmTfaZLDTHiRXCCVT87J9b7PewZ6zTl9fkwCE0Q1rG_0htJGuKMvviJL0TuN-x-zjWTroRrTRsptyUrnNwyI_fDK3OKvEJ_77PM03Zn2YXNBqLnG4Z7b5MK9IBGgvbApj8Xmh8y8hU963JX2IVjKdzFu0X1lgHlv30rxdXfOAb-5OAJEoqOBdtdo5auL183xBnU8Wrzc6uX8BDwhlsNxwwICZ0-pmwS0uc_BGoOpYzYPYwGJ9DI4wpElteBdirXzv-cUWorbhdpAsSLZ_uYtoXtT7Z2iMhiB-uiifLxUe15AASeGH7e3BaZ3kVemwKxfizqDigxH_PAWe3e_YPZb88ColB646qz8RHCt54b0aW9IbBtlx99GtSG9XeclcHDwHXRnMtDI-U7eY-ru3e0pGAN6CblT2fwSP-2pBVcEtYAoDxiSXAmbFehdCgiVeaA5WqkQjDarOP6kw-PVDbcdMxEkVHleQYXVjvWqsF3TxJiBmYYp7iesyiKSb-0u2DmpBF65uO5PwhgcS3Gpz1Ype6JusctpWS3KLJqfmuu2EkNcA2jqvyCSPsfuclzmovIxRAuEVgCZGmRJMvi_ZsQIV=s16-no" type="image/x-icon" />
 <link rel="stylesheet" href="/css/animate.css"> 
 <link rel="stylesheet" href="/css/pw.css"> 
-<script src="/js/wow.js">
-</script>
+<script src="/js/wow.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <body>
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
@@ -45,7 +45,7 @@
     </div> 
     
     <!-- Container (About Section) -->
-    <div class="bgimg-5 w3-display-container">  
+    <div class="bgimg-5 parallax w3-display-container">  
         <div class="w3-content w3-container w3-padding-64">
             <div class="w3-row">
                 <div class="w3-col m9 w3-center">
@@ -177,5 +177,11 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white nav_opacity", "");
     }
 }
+// jquery parallax effect for scrolling background   
+$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    $(".parallax").css("transform","translateY(" +  (scroll)/2  + "px)");
+  });
+
 </script>
 </html>
