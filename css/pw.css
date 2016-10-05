@@ -57,7 +57,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     perspective: 1px;
     overflow-x: hidden;
     overflow-y: auto;
-    transform: translateZ(-1px);
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
