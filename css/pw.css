@@ -59,12 +59,12 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
-@media only screen and (max-width: 500px) {
-    .bgimg-5 {
-        background-position:right center;
-    }
+/* Removed for testing @media only screen and (max-width: 500px) {*/
+/* Removed for testing     .bgimg-5 {*/
+/* Removed for testing         background-position:right center;*/
+/* Removed for testing     }*/
     
-}
+/* Removed for testing }*/
 
 /* Center vanity slideshow at bottom */    
 .slidecenter {
