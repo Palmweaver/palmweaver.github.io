@@ -32,6 +32,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 }
 .parallax__layer {
     position: absolute;
+    size: cover;
     top: 0;
     right: 0;
     bottom: 0;
