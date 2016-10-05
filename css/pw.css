@@ -38,10 +38,10 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     left: 0;
 }
 .parallax__layer--base {
-    transform: translateZ(0);
+    transform: translate3d(0,0,0);
 }
 .parallax__layer--back {
-    transform: translateZ(-1px);
+    transform: translate3d(0,0,-1px);
 }
 
 
