@@ -1,5 +1,5 @@
 .nav_opacity {
-    opacity: 0.4;
+    opacity: 0.5;
 }
 li,p,h1,h2,h3,h4,h5,h6 {
     opacity: 1;
@@ -15,7 +15,7 @@ p {font-family: 'Lora', serif; line-height: 1.8; color: #F5ECEC;}
 h3,h4,h5,h6 {color: #ff9800; font-family: 'Alike Angular', serif;}
 h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url("https://lh3.googleusercontent.com/oZ43e8Zsy3hLY5p4745X770MVWb5amRh6Ge-7FCrreSRiDUdKIDY0RkyYzToBrY2qYeX3vGbuDYkPoN6cKXTmcTH2pHrWv8dysmCUPEYxQcl-HPrugmPJViS5ObssD0t3ED_xoP1XphLgKjUIo06mUKedeC8q23UhpteDKGm8DEg1uTYZF5-0bmu4kUxh2sMxmGUzFdeG4FnROywEBHjU_SPGupX92lDNkmMBrdeA8OcDwufK51wfSYYGneqH5mwWLx4BcxXeePgiFAvpUKuOH9azkCB8cO3NoDZlCXq3IsiSjd0V0BabUyL86E8oInRusp-6GVLX54lTs-5vW3bHwo8N260aDB0sjMCw90aX67H34eWrMkuDviXND29tY7cb2cm1Rd5Lod8lWh-me44__3IyCj73e-f1NTVHGtXRABLPU0u8h1HIpRVS5DYzbxBlRI0YPK7GtemV17vxzPzz-c-Y_JjqJBcqINxFYY9FJYvt890EvkALxP0iViUcJve80G_qottt41fm0v-qrQiBOmcZJlGBQ6jgz_OgJW26aGJdWY4Owe35dIUJtRo0wGMRHDSA8tH6RlCrKdA0BWjLYxs0P-Vu9UlxD0C-FiliRuzqzZ9=w971-h728-no");
-    min-height: 270px;128
+    min-height: 270px;
 }
 
 /* Third image (Contact) */
@@ -51,9 +51,13 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-image: url("https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no");
     min-height: 600px;
     background-attachment: fixed;
-    background-position:right center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    transform: translateZ(-1px);
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
@@ -64,7 +68,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     
 }
 
-/* Reposiont vanity slideshow at bottom */    
+/* Center vanity slideshow at bottom */    
 .slidecenter {
     margin: 0 auto;
     }
