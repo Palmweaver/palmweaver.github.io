@@ -181,8 +181,7 @@ function myFunction() {
 // jquery parallax effect for scrolling background   
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    $(".parallax").css("transform","translateY(" +  (scroll)/2  + "px)");
-    $(".parallax").css("transform","translateZ("-1px");
+    $(".parallax").css("transform","translate3d(0px," +  (scroll)/2  + "px)",-1px);
   });
 
 </script>
