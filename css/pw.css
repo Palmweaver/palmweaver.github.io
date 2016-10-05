@@ -23,27 +23,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-size: cover;
 }
 
-/* Perspective Based Parallax Effect */
-.parallax {
-    perspective: 1px;
-    height: 600px;
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-.parallax__layer {
-    position: absolute;
-    size: cover;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-.parallax__layer--base {
-    transform: translate3d(0,0,0);
-}
-.parallax__layer--back {
-    transform: translate3d(0,0,-1px);
-}
+
 
 
 /* First image (Logo. Full height) */
