@@ -53,7 +53,10 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 /* Fifth image (What I work with) */
 .bgimg-5 {
     background-image: url("https://lh3.googleusercontent.com/R82lgfsoszkodRUiWhn9IEVJBXd4LLx5spSy3w_PtzZSpyNzYELExepAagTjA7wYwd_Wc8ngGw=w1015-h728-no");
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px
 }    
     
 /* Repositiion -What I work with- background to hold right on small screens */
