@@ -87,12 +87,11 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 
 .parallax {
   perspective: 1px;
-  height: 100vh;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
 }
 .parallax__layer {
-  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
