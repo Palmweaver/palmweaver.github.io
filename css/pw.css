@@ -92,6 +92,7 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
   overflow-y: auto;
 }
 .parallax__layer {
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
