@@ -59,6 +59,11 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     min-height: 100%;
     background-attachment: fixed;
 }    
+
+/* Sixth is a repeat of 5 for testing */
+.bgimg-6 {
+    background-image: url("https://lh3.googleusercontent.com/-gV-Q9vdREVQ/UNJbO6yV0SI/AAAAAAAAAl8/cZqi_YCDIIQ/s800/enact640c.jpg");
+}    
     
 /* Repositiion -What I work with- background to hold right on small screens */
 /* Removed for testing @media only screen and (max-width: 500px) {*/
