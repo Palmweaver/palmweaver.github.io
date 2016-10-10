@@ -61,7 +61,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-size: cover;
     min-height: 100%;
     background-attachment: fixed;
-    filter: brightness(50%);
 }    
 .bgimg-5::before {
     content: '';
