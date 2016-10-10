@@ -2,14 +2,11 @@
     opacity: 0.5;
 }
 li,p,h1,h2,h3,h4,h5,h6 {
-     filter: brightness(100%);
     opacity: 1;
 }
 
-#fullbright {
-     filter: brightness(100%);
-     opacity: 1;
-}
+
+
     
     
 body, html {
@@ -66,7 +63,15 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-attachment: fixed;
     filter: brightness(50%);
 }    
-
+.bgimg-5::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
 
 /* Sixth is a repeat of 5 for testing */
 .bgimg-6 {
@@ -75,6 +80,8 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-size: cover;
     min-height: 100%;
 }    
+
+
     
 /* Repositiion -What I work with- background to hold right on small screens */
 /* Removed for testing @media only screen and (max-width: 500px) {*/
