@@ -5,6 +5,11 @@ li,p,h1,h2,h3,h4,h5,h6 {
      filter: brightness(100%);
     opacity: 1;
 }
+
+#fullbright {
+     filter: brightness(100%);
+     opacity: 1;
+}
     
     
 body, html {
