@@ -59,7 +59,8 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 54em;
+    overflow:hidden;
+    height:1%;
     background-attachment: fixed;
 }    
 .bgimg-5::before {
