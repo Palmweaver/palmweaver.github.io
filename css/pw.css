@@ -60,7 +60,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
-    height:1%;
     background-attachment: fixed;
 }    
 .bgimg-5::before {
