@@ -64,5 +64,7 @@
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
