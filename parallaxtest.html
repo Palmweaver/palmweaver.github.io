@@ -11,7 +11,7 @@
 <script src="/js/wow.js">
 </script>
 <body>
-    <!-- Navbar (sit on top) -->
+    <!-- Navbar (sit on top)(Doubled for mobile) -->
     <div class="w3-top">
         <ul class="w3-navbar" id="myNavbar">
             <li class="w3-hide-small"><a href="#" class="w3-padding-large">HOME</a></li>
@@ -26,7 +26,7 @@
             </li>
         </ul>
     </div>
-    <!-- First Parallax Image with Logo Text -->
+    <!-- Splash opening parallax at top -->
     <div class="bgimg-1 w3-display-container">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <p class="w3-center w3-xlarge w3-text-light-grey w3-wide wow fadeInUp w3-hide-small w3-hide-medium">THAT'S ME</p>
@@ -37,6 +37,7 @@
             <p class="w3-center w3-large w3-text-light-grey wow fadeInUp w3-hide-large">IT WORKED OUT</p>
         </div>    
     </div>
+    <!-- Intro about self -->
     <div class="w3-content w3-container w3-padding-32">
         <div class="w3-row">
             <div class="w3-col w3-center">
@@ -46,7 +47,7 @@
         </div>
     </div> 
     
-    <!-- Container (About Section) -->
+    <!-- Container (Skills Section) -->
     <div class="bgimg-5 w3-display-container">  
         <div class="w3-content w3-container w3-padding-64">
             <div class="w3-row">
@@ -78,7 +79,7 @@
             </div>
         </div>
     </div>
-    <!-- Second Parallax Image with Portfolio Text -->
+    <!-- Second Parallax Image with intro to my art -->
     <div class="bgimg-2 w3-display-container">
         <div class="w3-center w3-padding-128">
              <p class="w3-xlarge w3-text-light-grey w3-wide wow fadeInUp w3-hide-small w3-hide-medium">THE ART THAT</p>
@@ -87,7 +88,7 @@
              <p class="w3-large w3-text-light-grey wow fadeInUp w3-hide-large">INSPIRED MY NICKNAME</p>
         </div>
     </div>
-    <!-- Container (Portfolio Section) -->
+    <!-- Container (Art Examples with modals) -->
     <div class="w3-content w3-container w3-padding-64 wow fadeInUp">
         <p class="w3-center wow fadeInUp"><em>Here are some examples of my work in the real world. Creating in reality aids in my virtual design, and has been a part of our downtown re-enactments in St. Augustine<br> More photos to be added later today</em></p><br>
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
@@ -108,12 +109,12 @@
     </div>
     <!-- Modal for full size images on click-->
     <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">×</span>
+        <span class="w3-closebtn w3-hover-red w3-text-white w3-xxxlarge w3-container w3-display-topright">X</span>
         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
             <img id="img01" style="max-width:100%">
         </div>
     </div>
-    <!-- Third Parallax Image with Portfolio Text -->
+    <!-- Third Parallax Image (Cricket background for intro to contact) -->
     <div class="bgimg-3 w3-display-container">
         <div class="w3-display-middle">
             <p class="w3-xlarge w3-text-light-grey w3-wide wow fadeInUp w3-hide-small w3-hide-medium">HOW TO FIND ME</p>
@@ -146,12 +147,13 @@
        </div>
     </div>
     
-    <!-- Footer -->
+    <!-- Footer (Simple for now)-->
     <footer class="w3-center w3-dark-grey w3-padding-4 w3-hover-green">
         <p>This website best viewed on everything</p>
     </footer>
 </body>
 <script>
+// activation of wow.js
 new WOW().init();   
 // Modal Image Gallery
 function onClick(element) {
