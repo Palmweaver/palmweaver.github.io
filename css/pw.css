@@ -62,25 +62,6 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-attachment: fixed;
 }    
 
-
-/* Sixth is a repeat of 5 for testing */
-.bgimg-6 {
-    background-image: url("https://lh3.googleusercontent.com/-gV-Q9vdREVQ/UNJbO6yV0SI/AAAAAAAAAl8/cZqi_YCDIIQ/s800/enact640c.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100%;
-}    
-
-
-    
-/* Repositiion -What I work with- background to hold right on small screens */
-/* Removed for testing @media only screen and (max-width: 500px) {*/
-/* Removed for testing     .bgimg-5 {*/
-/* Removed for testing         background-position:right center;*/
-/* Removed for testing     }*/
-    
-/* Removed for testing }*/
-
 /* Center vanity slideshow at bottom */    
 .slidecenter {
     margin: 0 auto;
