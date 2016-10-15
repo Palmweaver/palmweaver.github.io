@@ -60,4 +60,42 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+/* Key frames for fade up effect */ 
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 180%, 0);
+    transform: translate3d(0, 180%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 180%, 0);
+    transform: translate3d(0, 180%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+/* Fade effect duration and delay */ 
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  /* -webkit-animation-delay: 2s; */   /* Chrome, Safari, Opera */
+  /*animation-delay: 2s; */ /* Delay scraped until further analysis */
+}
+
 
