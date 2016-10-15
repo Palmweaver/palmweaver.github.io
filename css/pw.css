@@ -19,31 +19,31 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image (Full Metal Armor Pic) */
 .bgimg-1 {
     background-image: url('https://lh3.googleusercontent.com/EMxjBmBwTeg3P0y_OuOLYnHwUqDE0sXsym7W_VSMNdW7p8ezoQ5izpZ0M6kdrbfbvF5qVj7p8g=w640-h480-no?.jpg');
     min-height: 80%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Palm Lizard Pic) */
 .bgimg-2 {
     background-image: url("https://lh3.googleusercontent.com/GlEg2IVvSUVqZpLv2wBNqU7w-CFpM1aG1825oKrhwCy1Tf9zhEaMr3RHScGjH6Br2Sc7ihpEDPW1=w971-h728-no");
     min-height: 270px;
 }
 
-/* Third image (Contact) */
+/* Third image (Cricket in woods Pic) */
 .bgimg-3 {
     background-image: url("https://lh3.googleusercontent.com/7NBFLFpjJIPhR3xE-t5h4E74nOMJWr8rwEfGSwkQdRNSpbFHa8gf2s9tgpjtPqR-qtGX-fJD4a_mbxOQ_FLFM_8neO6sK_gLD-ZxDg4AbHTatZzumcuSf_KAG0FH1mdZ9bWfJef9xPNMzBPR0U84BdphH50uHucfr4o2ahTD4X1MNhjumaJ3TPlo31sxDT_t5xXsu7cM57qUHWSOskAI2o5_Z5uUMoVYcIpdn3iwx1XKVt87V6SjUyF66pK2A1FgYNCjhnmuGApZwF75iGV_rWgJ0bSg1rlUgI002rZWbkTAN-0eWjqD97Jw0CbEfBORwmSRMVEJPiNhzKwzBPPdjiuK5TRDoACCkUcIDeZCd5z4vACCieL9OUSxot6dg9gAKiwSDrOXABR5_ys2Npo6HtcLCHtIoTqGdkGwCJyJ9AoP1rEz4vWEEOzoStLHQePly8zhVjQrXuaec8VV68eIea5Q0OH7ZYJQoxQdFmOMymjW-5_f1bExh7dgJ4nOhh6iYIdkk3RJv4DwOUVPWnyYsOp6F40j05Fw1TabzYea1PLzpbvernFmqNSpDsfjfMsRBc4WhT-IIVpkLN5EUJgD7UVByKlvXj0NJuRFmaP-YO1C8RST=w971-h728-no");
     min-height: 300px;
 }
     
-/* Fourth image (Undefined) */
+/* Fourth image (Marching Pic - Currently not in use) */
 .bgimg-4 {
     background-image: url("https://lh3.googleusercontent.com/ez_w3eO6JTm60kdtJ6QyLvF_gabYOAJTxW7AlSi2SNm14lfRM5djkJca3z4DDwfHs8OM09SD1k6SFt_4xihjYlYPACKzRP7Q8QTSXGaWVYnd4qloAdC5hMpN_UMq7Olvz8fkGPVdd0OZAC1MagyTz0Icr3CKWgh-DRg_x_Cv8vmtOK45rCCEf7FrCM_2q1QoWayWdbdheYbLJfCsdbgfNPtEv4X2ub3oSREbyLPkOBrczXWXnIKye-l4Tj0uhvQ5IjhliXcYpumgtoJq4YySTtKl_jUAjKl_EEf4lDUITiBLGBUGWKkGPWz_UIlvHTZKSUdTMHdlDSQwQjN0AK6EhVbX3s0O9VIuecLTblwLkM1EwFMadvKMC74GCxA7UZArVV3C7mD8ISPqMUt1GtIduSUl2XmvbtkkWwJ3ZlJCGEMQrQiLIpKBJtgQwaYet-Yk5-SMfm9znDwmq-Vp5-rCsOrpjSzHoQIABUc-xiyi-7chvdLayubx3l7mdbaFeuvkSIdywVpx-c2oug5OoJzH_FTyM2wY4mkzimADA_eDIriz9FpmZOv2ytKpTPp9xO1KZhhfOS6wG_7F_9lzI2pBQdtHkHDyedEwu1ta8KwyOmXfa23y=w640-h480-no");
     min-height: 600px;
 }
 
-/* Fifth image (What I work with) */
+/* Fifth image (What I work with - Lost Arts Fair) */
 .bgimg-5 {
     background-image: url("https://lh3.googleusercontent.com/udfswV6d6qOjsm4hlS1UXKSYHZwvn722tTeCvUmOlcXwyLfa0DTvdz2SelmeOZ-9y96mKIIkBO1p=w915-h657-no");
     background-position: right center;
