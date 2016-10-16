@@ -98,4 +98,324 @@ h1,h2 {color: #ff9800; font-family: 'Alfa Slab One', cursive;}
   /*animation-delay: 2s; */ /* Delay scraped until further analysis */
 }
 
+/* MEDIA QUERY MADNESS TO MAKE BACKGROUNDS WORK IN IOS */ 
 
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+       .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+        .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+       .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+       .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+       .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+       .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+ .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+   .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .bgimg-1, .bgimg-2, .bgimg-2, .bgimg-2, .bgimg-5 {
+        background-attachment: scroll;
+        background-position: top;
+        -webkit-background-size: auto;
+        -moz-background-size: auto;
+        background-size: auto;
+    }
+}
