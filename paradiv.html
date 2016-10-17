@@ -47,7 +47,7 @@
     </div> 
     
     <!-- Container (Skills Section) -->
-    <div class="bgimg-5 w3-display-container">  
+    <div class="bgimg-5 w3-display-container" id="paradiv">  
         <div class="w3-content w3-container w3-padding-64">
             <div class="w3-row">
                 <div class="w3-col m9 w3-center">
@@ -183,5 +183,16 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white nav_opacity", "");
     }
 }
+    
+(function () {
+var paradiv = document.paradiv,
+e = document.documentElement,
+scrollPercent;
+$(window).unbind("scroll").scroll(function () {
+scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
+paradiv.style.backgroundPosition = "0px " + scrollPercent + "%";
+});
+})();    
+    
 </script>
 </html>
