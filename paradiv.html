@@ -185,14 +185,14 @@ function myFunction() {
 }
     
 (function () {
-var paradiv = document.paradiv,
+var paradiv = document.getElementById("paradiv").id,
 e = document.documentElement,
 scrollPercent;
 $(window).unbind("scroll").scroll(function () {
 scrollPercent = 100 * $(window).scrollTop() / ($(document).height() - $(window).height());
 paradiv.style.backgroundPosition = "0px " + scrollPercent + "%";
 });
-})();    
+})();
     
 </script>
 </html>
